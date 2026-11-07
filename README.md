@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ÀṢỌ — African Fashion Catalogue
 
 A React + Supabase catalogue website for an African fashion brand. Visitors can browse published designs without signing in. Customers can register and sign in. Only the account explicitly promoted to `owner` can access the admin dashboard and manage catalogue content.
@@ -104,3 +105,6 @@ Sign in with the owner account and open `/admin`.
 ## Production hardening still recommended
 
 This starter is a complete catalogue foundation, not a substitute for a security review. Before a high-traffic launch, add automated tests, monitoring, image moderation, upload retry/cleanup jobs, pagination, SEO metadata per product, a custom domain, backups, and a review of Supabase Auth and database policies. If the business later needs online checkout, implement payment processing with a trusted server-side function and verified payment webhooks.
+=======
+# chinny_trends
+>>>>>>> 566786404bd7534dfe53db992cfb6f2f0b2f04e2
