@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# ÀṢỌ — African Fashion Catalogue
+# Chinny Trends Fashion World — African Fashion Catalogue
 
 A React + Supabase catalogue website for an African fashion brand. Visitors can browse published designs without signing in. Customers can register and sign in. Only the account explicitly promoted to `owner` can access the admin dashboard and manage catalogue content.
 
