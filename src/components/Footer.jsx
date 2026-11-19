@@ -1,5 +1,6 @@
 import { Instagram, Facebook, Mail, ArrowUpRight } from "lucide-react";
 import { Brand } from "./Brand";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   const whatsapp = import.meta.env.VITE_WHATSAPP_NUMBER || "";
@@ -15,9 +16,9 @@ export default function Footer() {
         </div>
         <div>
           <h4>Explore</h4>
-          <a href="/shop">All designs</a>
-          <a href="/collections">Collections</a>
-          <a href="/#story">Our story</a>
+          <Link to="/shop">All designs</Link>
+          <Link to="/collections">Collections</Link>
+          <Link to="/#story">Our story</Link>
         </div>
         <div>
           <h4>Get in touch</h4>
