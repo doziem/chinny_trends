@@ -8,7 +8,10 @@ export function Brand({ light = false }) {
       <span className="brand-logo">
         <img src={logo} alt="Chinny Trends" />
       </span>
-      <span className="brand-name">Chinny Trends</span>
+      <span className="brand-copy">
+        <span className="brand-name">Chinny Trends</span>
+        <span className="brand-tagline">Fashion World</span>
+      </span>
     </Link>
   );
 }
